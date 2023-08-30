@@ -6,10 +6,11 @@ This is Module 12 Challenge of Data Analytics Bootcamp
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
 ### File Supplied
-The Resources folder contains the starting .xlsx files, and the output .csv files. 
+The Resources folder contains the establishments.json file. 
 
 #### Deliverables
-1. 
+1. Set up the database and jupyter notebook
+2. Update the database 
 3.Conduct an exploratory analysis of the database by answering the questions below:
 - Which establishments have a higiene score equal to 20?
 - Which establishments in London have a RatingValue greater than or equal to 4
@@ -19,16 +20,14 @@ The Resources folder contains the starting .xlsx files, and the output .csv file
 ### Technologies 
 
 - Jupyter Notebook
+- Pymongo
 - Pandas
-- Regular Expressions
-- Numpy
 - Json
-- PostGreSQL
+- MongoDB Compass
+  
   
 ### Getting Started
 - Clone this repo to your machine. 
-- Run EAllan_Giang_Combination.ipynb in Jupyter Notebook.
-- Run ETL_Mini_Project_HHussein.ipynb in Jupyter Notebook.
-- Create crowdfunding_db in PostGres.
-- Run crowdfunding_db_schema.sql in PostGres.
-- Run db-try.ipynb in Jupyter Notebook. 
+- Import the establishments.json collection into the uk foods database via the terminal
+- Open NoSQL_analysis_starter.ipynb via jupyter notebook
+- Open NoSQL_setup_starter.ipynb via jupyter notebook
