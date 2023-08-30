@@ -10,7 +10,7 @@ The Resources folder contains the establishments.json file.
 
 #### Deliverables
 1. Set up the database and jupyter notebook
-2. Update the database 
+2. Update the database  
 3.Conduct an exploratory analysis of the database by answering the questions below:
 - Which establishments have a higiene score equal to 20?
 - Which establishments in London have a RatingValue greater than or equal to 4
